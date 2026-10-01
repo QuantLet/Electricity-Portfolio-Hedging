@@ -22,7 +22,6 @@ Submitted: 01 October 2026
 Datafile:
 - "../Data/slp_profiles.csv"
 - "../Data/futures_prices.csv"
-- "../Data/shape_factors.csv"
 - "../Results/Output Data/GRANULAR_hpfc_curve.csv"
 
 Input: "Run the five notebooks in numerical order from their respective folders. Source inputs are read from the repository-level Data directory, and preceding-stage outputs are read from Results. Python dependencies are listed in requirements.txt."
