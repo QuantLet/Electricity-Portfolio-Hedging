@@ -1,0 +1,9 @@
+Check,Observed,Passed
+"35,136 unique quarter-hours","35,136 rows / 35,136 UTC keys",True
+UTC grid is ordered and gapless at 15 minutes,0 days 00:15:00 to 0 days 00:15:00,True
+Provided local offsets map to the same UTC instants,0 mismatches,True
+Berlin Peak flag is Monday-Friday 08:00-20:00,0 mismatches,True
+"DST-aware local days contain 92, 96, or 100 intervals","[92, 96, 100]",True
+"Shape factors are complete, positive, and annual-mean one","missing=0, min=0.122131, mean=1.000000000",True
+Every delivery period has one Base and one Peak quote,"duplicates=0, periods=17",True
+Quotes are available before 2024 delivery,2023-09-29,True

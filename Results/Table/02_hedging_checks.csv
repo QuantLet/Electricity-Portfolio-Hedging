@@ -1,0 +1,6 @@
+Check,Observed,Expected,Passed
+Aligned quarter-hour rows,35136.0,35136,True
+Forecast portfolio reconciliation,43000.00000000001,43000.0,True
+Non-negative futures positions,1.541214159266838,>= 0,True
+Value-neutrality errors below one cent,2.3515895009040833e-08,< 0.01 EUR,True
+All Results outputs exist,6.0,6,True

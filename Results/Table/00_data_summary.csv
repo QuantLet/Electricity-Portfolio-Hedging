@@ -1,0 +1,9 @@
+dataset,rows,columns,missing_values
+slp_profiles,35136,5,0
+futures_prices,34,9,0
+shape_factors,35136,7,0
+day_ahead_prices,35136,3,0
+actual_portfolio_load,35136,6,0
+imbalance_prices,35136,3,0
+data_dictionary,33,4,0
+sources,7,4,2

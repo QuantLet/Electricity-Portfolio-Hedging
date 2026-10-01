@@ -1,0 +1,16 @@
+Dataset,Check,Observed,Expected,Passed
+All time series,"35,136 rows and unique UTC keys","SLP: 35,136/35,136, Shape Factors: 35,136/35,136, Day-Ahead: 35,136/35,136, Actual Load: 35,136/35,136, reBAP: 35,136/35,136","35,136/35,136 each",True
+All time series,UTC keys align,True,True,True
+SLP,"No missing, duplicate, or negative profile values",0/0/0,0/0/0,True
+SLP,Normalized annual profile totals,"1,000.000, 1,000.000, 1,000.000","1,000 MWh each",True
+Portfolio,Group and total annual energy reconcile,"35,000, 6,000, 2,000, 43,000","35,000 / 6,000 / 2,000 / 43,000",True
+Portfolio,Quarter-hour MWh to MW identity,max diff 0.000e+00,0,True
+Futures,Unique Base/Peak pair for every period,"keys=34, periods=17",34 keys / 17 periods,True
+Futures,Prices/activity valid and coverages non-overlapping,"missing=0, negative activity=0, coverage={'COARSE_CAL': True, 'Q1-Q4 coverage': True, 'GRANULAR': True}",0 / 0 / all True,True
+Shape Factors,"Positive values, mean one, valid codes","min=0.122, mean=1.000000, weekday=[0, 1, 2, 3, 4, 5, 6], peak=[0, 1]",min>0 / mean=1 / 0-6 / 0-1,True
+Shape Factors,Peak matches Berlin weekday 08:00-20:00,mismatches=0,0,True
+Day-Ahead,One hourly value repeated four quarter-hours,"hours=8784, invalid=0","8,784 / 0",True
+Realised Prices,Positive and negative observations retained,DA -135.45/936.28; reBAP -5734.46/14999.99,min<0 and max>0,True
+Actual Load,Customer components reconcile to total,True,True,True
+Calendar,Berlin DST days and December event,"intervals=[92, 96, 100], event=2024-12-12",92/96/100 and December,True
+Results,All expected figures saved and non-empty,20/20 files,20/20 files,True

@@ -1,0 +1,30 @@
+Name of Quantlet: EPH_02_Hedging
+
+Published in: 2026 HTW Summer School Final Project - Trading and Hedging a Retail Electricity Portfolio
+
+Description: "Optimizes non-negative annual and granular Base and Peak futures positions using forecast-load mismatch and price-weighted value-neutrality constraints, then compares hedge shapes."
+
+Keywords:
+- electricity markets
+- hourly price forward curve
+- futures hedging
+- retail electricity portfolio
+- procurement cost
+- imbalance settlement
+- risk management
+
+Author: "Wiebke Walkden, Valeria Giannuzzi, Federico Reinoso, Ivan Chisnicean, David Siang-Li Jheng"
+
+See also: "EPH_00_Exhibits, EPH_01_HPFC, EPH_03_Costs, EPH_04_Advise_Interpret"
+
+Submitted: 01 October 2026
+
+Datafile:
+- "../Data/slp_profiles.csv"
+- "../Data/futures_prices.csv"
+- "../Data/shape_factors.csv"
+- "../Results/Output Data/GRANULAR_hpfc_curve.csv"
+
+Input: "Run the five notebooks in numerical order from their respective folders. Source inputs are read from the repository-level Data directory, and preceding-stage outputs are read from Results. Python dependencies are listed in requirements.txt."
+
+Output: "Figures, summary tables, validation checks, and derived time series are saved under Results. This folder includes the corresponding PNG figures for QuantLet metadata rendering."

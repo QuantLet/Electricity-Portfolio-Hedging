@@ -1,0 +1,9 @@
+Check,Observed,Expected,Passed
+Complete quarter-hour rows,35136.0,35136,True
+Local calendar days,366.0,366,True
+Local calendar months,12.0,12,True
+Annual vs Stage 5 error EUR,9.313225746154785e-10,0,True
+Daily aggregation error EUR,4.656612873077393e-10,0,True
+Monthly aggregation error EUR,4.656612873077393e-10,0,True
+December episode rows,192.0,192,True
+December cost identity error EUR,1.4551915228366852e-11,0,True
